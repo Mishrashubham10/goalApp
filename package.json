@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node api/server.js",
-    "server": "nodemon api/server.js"
+    "server": "nodemon api/server.js",
+    "client": "npm start --prefix frontend"
   },
   "author": "Shubham Mishra",
   "license": "MIT",
